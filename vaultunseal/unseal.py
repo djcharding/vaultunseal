@@ -1,5 +1,5 @@
 import time, base64, json, os
-from vault import Vault
+from vaultunseal.vault import Vault
 
 def get_config():
     config_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '../config/config.json'))
