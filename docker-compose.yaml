@@ -5,7 +5,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: dev/python3.8
+    image: vaultunseal
     working_dir: /usr/src/app
     volumes:
       - ./config:/usr/src/app/config
